@@ -1,0 +1,84 @@
+html {font-family: 'Lato', sans-serif; text-align: center; background-color: #ffffff; }
+body {display: inline-block; text-align: left}
+label, legend {font-weight: bold}
+*:required, .obligatorio {border: thin solid #006eff}
+input[type=number], .numero {text-align: right}
+dfn {font-weight: bold}
+br + output, fieldset + output, footer, form em {font-size: small}
+fieldset p {margin: 0}
+fieldset label, label * {font-weight: normal}
+.error {color: red}
+
+h1{
+  font-family: 'Lobster', cursive;
+  font-size: 50px;
+  background: -webkit-radial-gradient(#a8d2ff, #c200db);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-align: center;
+}
+body {
+    background: #000000;
+  padding: 1em 10em 15em 10em;
+  border-radius: 10px;
+  color: white;
+  font-weight: 600;
+}
+.entrada {
+  background: #ffffff;
+  padding: .5em 2.5em;
+  border-radius: 30px;
+  color: black;
+  font-weight: 600;
+}
+
+.bottom {
+  color: white;
+  background-color: #ff007b;
+  padding-left: 100px;
+  padding: .5em 2.5em;
+  border-radius: 30px;
+  border: none;
+  font-weight: 600;
+
+}
+.bottom:hover {
+  background: #ff007b;
+  transform: scale(1.04, 1.04);
+  transition-duration: .3s;
+  padding: .5em 2.5em;
+  color: black;
+  font-weight: 600;
+}
+
+.bottom2 {
+  background: #ffffff;
+  padding: .5em 2.5em;
+  border-radius: 30px;
+  color: black;
+  font-weight: 600;
+    border: none;
+
+}
+.bottom2:hover {
+  background: #ffbb00;
+  transform: scale(1.04, 1.04);
+  transition-duration: .3s;
+  padding: .5em 2.5em;
+  color: black;
+  font-weight: 600;
+}
+
+textarea {
+  background: none;
+  
+  padding: .5em 2.5em;
+  border-radius: 10px;
+  font-size: 25px;
+  color: white;
+  font-weight: 600;
+}
+
+footer {
+  text-align: center;
+}

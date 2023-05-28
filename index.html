@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <title>Manejo de Números</title>
+  <meta name="viewport" content="width=device-width">
+  <link rel="stylesheet" href="css/estilos.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <header>
+    <h1><strong>Serie de Fibonacci</strong></h1>
+  </header>
+  <form id="forma" action="javascript:procesa()">
+    <p><em>El borde azul indica obligatorio.</em></p>
+    <p>
+      <label accesskey="E">
+        Serie
+        <input class="entrada" name="entero" type="text" class="numero" placeholder="Fibonacci (n)" autofocus required>
+      </label>
+      <input class="bottom" name="procesar" type="submit" value="Procesar" accesskey="P">
+
+    </p>
+  </form>
+
+  <form id="Limpiar" method="get" action="#"> <button class="bottom2" type="submit">
+      Limpiar<br />
+    </button>
+  </form>
+  <p>
+    <textarea name="result" id="result">
+</textarea>
+  </p>
+
+  <footer>
+    Copyright 2023 Gustavo Del Ángel F. <br>Programación web
+  </footer>
+
+  <script src="js/CtrlFibo.js"></script>
+</body>
+
+</html>
